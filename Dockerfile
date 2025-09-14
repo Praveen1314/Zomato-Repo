@@ -1,4 +1,4 @@
-FROM node:16-slim AS praveen
+FROM node:16-alipne AS praveen
 WORKDIR /app
 COPY package*.json ./
 RUN npm install
